@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Registration Form</title>
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0"/>
+    <link rel="stylesheet" href="new.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="form-title">Registration Form</h1>
+
+      <form action="#">
+        <div class="main-user-info">
+          <div class="user-input-box">
+            <label for="fullName">Name of Baby</label>
+            <input type="text"
+                    id="fullName"
+                    name="fullName"
+                    placeholder="Enter Full Name"/>
+          </div>
+          <div class="user-input-box">
+            <label for="username">Parent's Name</label>
+            <input type="text"
+                    id="parentname"
+                    name="parentname"
+                    placeholder="Enter Parent's Name"/>
+          </div>
+          <div class="user-input-box">
+            <label for="email">Email</label>
+            <input type="email"
+                    id="email"
+                    name="email"
+                    placeholder="vaccineregister@gmail.com"/>
+          </div>
+          <div class="user-input-box">
+            <label for="phoneNumber">Mobile Number</label>
+            <input type="text"
+                    id="phoneNumber"
+                    name="phoneNumber"
+                    placeholder="91******09"/>
+          </div>
+          <div class="user-input-box">
+            <label for="height">Height(in 'cm')</label>
+            <input type="height"
+                    id="height"
+                    name="height"
+                    placeholder="Enter height(eg.50)"/>
+          </div>
+          <div class="user-input-box">
+            <label for="weight">Weight(in 'kg')</label>
+            <input type="weight"
+                    id="weight"
+                    name="weight"
+                    placeholder="Enter weight(eg.3.1)"/>
+          </div>
+          <div class="user-input-box">
+          <label for="date">Date Of Birth</label>
+          <input type="date" placeholder="17/04/2002" required>
+        </div>
+        
+        </div>
+        <div class="disease-details-box">
+          <span class="disease-title">Birth Time Disease(if any)</span>
+          <div class="disease-category">
+            <input type="radio" name="disease" id="anaphylaxis">
+            <label for="anaphylaxis">Anaphylaxis</label>
+            <input type="radio" name="disease" id="heart-defects">
+            <label for="heart-defects">Heart-Defects</label>
+            <input type="radio" name="infections" id="infections">
+            <label for="sickle-cell">Infections</label>
+            <input type="radio" name="disease" id="down-syndrome">
+            <label for="down-syndrome">Down-syndrome</label>
+            <input type="radio" name="disease" id="others">
+            <label for="others">Others</label>
+          </div>
+        </div>
+        <div class="gender-details-box">
+          <span class="gender-title">Gender</span>
+          <div class="gender-category">
+            <input type="radio" name="gender" id="boy">
+            <label for="boy">Boy</label>
+            <input type="radio" name="gender" id="girl">
+            <label for="girl">Girl</label>
+          </div>
+        </div>
+        <div class="birth-details-box">
+          <span class="birth-title">Type of Birth</span>
+          <div class="birth-category">
+            <input type="radio" name="birth" id="normal">
+            <label for="normal">Normal</label>
+            <input type="radio" name="birth" id="premature">
+            <label for="premature">Premature</label>
+          </div>
+        </div>
+        <div class="blood-details-box">
+          <span class="blood-title">Blood Group</span>
+          <div class="blood-category">
+            <input type="radio" name="blood" id="o+ve">
+            <label for="o+ve">O+ve</label>
+            <input type="radio" name="blood" id="o-ve">
+            <label for="o-ve">O-ve</label>
+            <input type="radio" name="blood" id="a+ve">
+            <label for="a+ve">A+ve</label>
+            <input type="radio" name="blood" id="a-ve">
+            <label for="a-ve">A-ve</label>
+            <input type="radio" name="blood" id="b+ve">
+            <label for="b+ve">B+ve</label>
+            <input type="radio" name="blood" id="b-ve">
+            <label for="b-ve">B-ve</label>
+            <input type="radio" name="blood" id="ab+ve">
+            <label for="ab+ve">AB+ve</label>
+            <input type="radio" name="blood" id="ab-ve">
+            <label for="ab-ve">AB-ve</label>
+          </div>
+        </div>
+        <div class="form-submit-btn">
+          
+          <input type="submit" value="Register">
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
